@@ -1342,13 +1342,12 @@ Version:	1.1
 	CountDown CSS
 =========================*/
 #newlyadded{
-	background-color: rgb(255, 253, 253);
+	background-color:#00c1cb41;
 }
 
 #countdown {
-	background-image: url(images/colorbg1.jpg);
-	background-size: cover;
-	background-color: rgba(0, 0, 0, 0.377);
+	
+	background-color:#fff;
 	background-position: center center;
 	position: relative;
 	background-attachment: fixed;
@@ -1361,7 +1360,7 @@ Version:	1.1
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background: rgba(5, 5, 5, 0.082);
+	/* background: rgb(5, 5, 5); */
 	content: "";
 }
 #countdown .single-count {
